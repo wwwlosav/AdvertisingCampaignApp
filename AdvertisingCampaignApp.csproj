@@ -6,10 +6,19 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <UseWPF>true</UseWPF>
+    <ApplicationIcon>logoRA.ico</ApplicationIcon>
+    <Authors>Albina Temneva</Authors>
+    <Company>Polytechnic College</Company>
+    <RepositoryUrl>https://github.com/wwwlosav/AdvertisingCampaignApp</RepositoryUrl>
+    <RepositoryType>github</RepositoryType>
   </PropertyGroup>
 
   <ItemGroup>
     <None Remove="logoRA.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="logoRA.ico" />
   </ItemGroup>
 
   <ItemGroup>
