@@ -14,7 +14,7 @@ namespace AdvertisingCampaignApp
             InitializeComponent();
             try
             {
-                NavigateTo(new LoginPage()); // Начальная страница — авторизация
+                NavigateTo(new LoginPage());
             }
             catch (Exception ex)
             {

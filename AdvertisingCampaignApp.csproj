@@ -18,11 +18,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Content Include="logoRA.ico" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="EPPlus" Version="7.2.1" />
+    <PackageReference Include="LiveCharts" Version="0.9.7" />
     <PackageReference Include="LiveCharts.Wpf" Version="0.9.7" />
     <PackageReference Include="Npgsql" Version="9.0.3" />
   </ItemGroup>
@@ -32,43 +29,43 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="AdminDashboardPage.xaml.cs">
+    <Compile Update="Page\AdminDashboardPage.xaml.cs">
       <Generator>MSBuild:Compile</Generator>
     </Compile>
-    <Compile Update="ClientDashboardPage.xaml.cs">
+    <Compile Update="Page\ClientDashboardPage.xaml.cs">
       <Generator>MSBuild:Compile</Generator>
     </Compile>
-    <Compile Update="DatabaseConfig.cs">
+    <Compile Update="Models\DatabaseConfig.cs">
       <Generator>MSBuild:Compile</Generator>
     </Compile>
-    <Compile Update="EmployeeDashboardPage.xaml.cs">
+    <Compile Update="Page\EmployeeDashboardPage.xaml.cs">
       <Generator>MSBuild:Compile</Generator>
     </Compile>
-    <Compile Update="LoginPage.xaml.cs">
+    <Compile Update="Page\LoginPage.xaml.cs">
       <Generator>MSBuild:Compile</Generator>
     </Compile>
     <Compile Update="MainWindow.xaml.cs">
       <Generator>MSBuild:Compile</Generator>
     </Compile>
-    <Compile Update="RegistrationPage.xaml.cs">
+    <Compile Update="Page\RegistrationPage.xaml.cs">
       <Generator>MSBuild:Compile</Generator>
     </Compile>
   </ItemGroup>
 
   <ItemGroup>
-    <Page Update="AdminDashboardPage.xaml">
+    <Page Update="Page\AdminDashboardPage.xaml">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Page>
-    <Page Update="ClientDashboardPage.xaml">
+    <Page Update="Page\ClientDashboardPage.xaml">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Page>
-    <Page Update="EmployeeDashboardPage.xaml">
+    <Page Update="Page\EmployeeDashboardPage.xaml">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Page>
-    <Page Update="LoginPage.xaml">
+    <Page Update="Page\LoginPage.xaml">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Page>
-    <Page Update="RegistrationPage.xaml">
+    <Page Update="Page\RegistrationPage.xaml">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Page>
   </ItemGroup>
